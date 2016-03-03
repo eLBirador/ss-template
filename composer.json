@@ -1,12 +1,23 @@
-{
+	{
 	"name": "silverstripe/installer",
 	"description": "The SilverStripe Framework Installer",
+	"type": "silverstripe-module",
+	"keywords": [
+		"silverstripe",
+		"yahaay"
+	],
+	"authors": [
+	{
+		"name": "Gerald Villacarlos",
+		"email": "gerald@yahaay.com"
+	}
+	],
 	"require": {
 		"php": ">=5.3.3",
-		"silverstripe/cms": "self.version",
-		"silverstripe/framework": "self.version",
-		"silverstripe/reports": "self.version",
-		"silverstripe/siteconfig": "self.version",
+		"silverstripe/cms": "3.1.*",
+		"silverstripe/framework": "3.1.*",
+		"silverstripe/reports": "3.1.*",
+		"silverstripe/siteconfig": "3.1.*",
 		"silverstripe-themes/simple": "3.1.*"
 	},
 	"require-dev": {
